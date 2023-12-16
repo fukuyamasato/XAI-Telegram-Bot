@@ -20,11 +20,11 @@ Install python telegram bot
 ```
 pip install python-telegram-bot
 ```
-Create a new python file (Define <yourfilename>)
+Create a new python file (Define a file name for python file)
 ```
 vim <yourfilename>.py
 ```
-Paste below code into your py file. Replace 'YOUR_BOT_TOKEN' with telegram token (HTTP API), 'YOUR_CHAT_ID' with telegram chat id and 'YOUR_SCREEN_NAME' with your screen name that runs your node. 
+Paste below code into your py file. Replace 'YOUR_BOT_TOKEN' with telegram token (HTTP API), 'YOUR_CHAT_ID' with telegram chat id and 'YOUR_SCREEN_NAME' with your screen name in which your node runs. 
 ```
 import subprocess
 import os
@@ -88,7 +88,7 @@ Run below command (Replace <yourfilename> with your python file name)
 ```
 python3 <yourfilename>.py
 ```
-CTRL A+D to detach from screen
+CTRL A+D to detach from screen. Now you are readdy to go
 
 
 # Start to Get Logs
