@@ -1,5 +1,5 @@
 # XAI-Telegram-Bot
-# Set Up Telegram Bot
+## Set Up Telegram Bot
 - **Search BotFather(make sure it has the blue tick) and joint the channel**
 
 ![alt text](https://i.imgur.com/yDHae3L.jpeg)
@@ -7,7 +7,7 @@
 - **Enter /newbot command and define your bot name and username**
 - **Note the token (HTTP API)**
 
-# Find Chat ID
+## Find Chat ID
 It's easy to get from telegram web.
 - **Login Telegram Web**
 - **Open your bot channel (It looks like https://web.telegram.org/a/#123456789)**
@@ -15,7 +15,7 @@ It's easy to get from telegram web.
 - **Replace # with 100 and that's your chat id (100123456789 in this case)**
 
 
-# Install Telegram Bot on your VPS
+## Install Telegram Bot on your VPS
 Install python telegram bot
 ```
 pip install python-telegram-bot
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 ```
 Press ESC to escape from insert mode. Write ":" and "wq" command to save and quit.
 
-# Create a New Screen to Run Bot
+## Create a New Screen to Run Bot
 ```
 screen -S noderecorder
 ```
@@ -91,5 +91,5 @@ python3 <yourfilename>.py
 CTRL A+D to detach from screen. Now you are readdy to go
 
 
-# Start to Get Logs
+## Start to Get Logs
 Type /start in your telegram channel to start. Then /get_logs to view your logs.
